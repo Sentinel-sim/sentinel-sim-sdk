@@ -11,6 +11,11 @@ setup(
     long_description_content_type="text/markdown",
     author="Sentinel SIM",
     url="https://sentinel-sim.com",
+    project_urls={
+        "Homepage": "https://sentinel-sim.com",
+        "Documentation": "https://api.sentinel-sim.com/docs",
+        "Source": "https://github.com/Sentinel-sim/sentinel-sim-sdk",
+    },
     packages=find_packages(),
     python_requires=">=3.9",
     install_requires=["httpx>=0.24.0"],
