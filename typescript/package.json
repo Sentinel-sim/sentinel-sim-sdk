@@ -1,7 +1,7 @@
 {
   "name": "sentinel-sim",
   "version": "0.3.0",
-  "description": "TypeScript SDK for Sentinel SIM — AI agent governance, tool routing, and observability",
+  "description": "TypeScript SDK for Sentinel SIM — AI agent tool routing, orchestration, and observability",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": ["dist", "README.md"],
@@ -9,12 +9,12 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["ai", "agents", "llm", "sentinel", "sdk", "tool-calling", "observability"],
+  "keywords": ["ai", "agents", "llm", "sentinel", "sdk", "tool-calling", "observability", "orchestration"],
   "author": "Sentinel SIM",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fbk2111/sentinel-sim-sdk"
+    "url": "https://github.com/Sentinel-sim/sentinel-sim-sdk"
   },
   "homepage": "https://sentinel-sim.com",
   "devDependencies": {
